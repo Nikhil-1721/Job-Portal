@@ -1,10 +1,12 @@
 package com.nikhil.JobPortal.Model;
 
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
 @Document(collection = "Jobs")
+@Component
 public class Post {
     private String id;
     private String desc;

@@ -8,8 +8,9 @@ public class JobPortalApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(JobPortalApplication.class, args);
 		System.out.println("Testing...............");
+		SpringApplication.run(JobPortalApplication.class, args);
+
 	}
 
 }
