@@ -1,4 +1,4 @@
-package com.nikhil.JobPortal;
+package com.nikhil.JobPortal.DAO;
 
 import com.nikhil.JobPortal.Model.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
