@@ -8,7 +8,7 @@ import java.util.Arrays;
 @Document(collection = "Jobs")
 @Component
 public class Post {
-    private String id;
+
     private String desc;
     private int exp;
     private String profile;
@@ -17,13 +17,6 @@ public class Post {
     public Post() {
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getDesc() {
         return desc;
@@ -60,8 +53,7 @@ public class Post {
     @Override
     public String toString() {
         return "Post{" +
-                "id='" + id + '\'' +
-                ", desc='" + desc + '\'' +
+                "desc='" + desc + '\'' +
                 ", exp=" + exp +
                 ", profile='" + profile + '\'' +
                 ", tech=" + Arrays.toString(tech) +
