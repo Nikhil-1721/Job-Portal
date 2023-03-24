@@ -18,4 +18,18 @@ Steps to create the Project :
 6. Design the front end part
 7. Run on server
 
+Commands used for database :
+  use Jobs
+  show dbs
+  db.createCollection("name")
+  db.Jobs.insertOne({Document})
+  db.Jobs.insertMany({Document 1}, {Document 2}, {Document 3})
+  show collections
+  db.Jobs.find()
+  db.Jobs.findAll()
+  db.Jobs.update({expression}, {changes})
+  db.Jobs.updateMany()
+  db.Jobs.deleteOne({condition})
+  db.Jobs.deleteMany()
+  db.Jobs.pretty()
 
