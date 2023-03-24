@@ -8,3 +8,14 @@ The tools involved to create this project are :
 2. MongoDB - Atlas, Compass & Shell
 3. Git & GitHub - for version control
 4. Node JS - for REACT application
+
+Steps to create the Project :
+1. Set up the MongoDB database.
+2. Define the project structure - MVC
+3. Write the logic for processing the data 
+4. Connect the application with database
+5. Test the APIs
+6. Design the front end part
+7. Run on server
+
+
